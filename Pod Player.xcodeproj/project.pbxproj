@@ -7,22 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD142083213DCF3E008D8387 /* EpisodesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD142082213DCF3E008D8387 /* EpisodesVC.swift */; };
+		DD142085213DD11D008D8387 /* MainSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD142084213DD11D008D8387 /* MainSplitVC.swift */; };
 		DD2C755D213D9FFF00AD44A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C755C213D9FFF00AD44A7 /* AppDelegate.swift */; };
-		DD2C755F213D9FFF00AD44A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C755E213D9FFF00AD44A7 /* ViewController.swift */; };
 		DD2C7562213D9FFF00AD44A7 /* Pod_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD2C7560213D9FFF00AD44A7 /* Pod_Player.xcdatamodeld */; };
 		DD2C7564213DA00000AD44A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2C7563213DA00000AD44A7 /* Assets.xcassets */; };
 		DD2C7567213DA00000AD44A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2C7565213DA00000AD44A7 /* Main.storyboard */; };
+		DD2C7570213DA3BB00AD44A7 /* PodcastsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C756F213DA3BB00AD44A7 /* PodcastsVC.swift */; };
+		DD2C7572213DA9E000AD44A7 /* PodcastParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C7571213DA9E000AD44A7 /* PodcastParser.swift */; };
+		DD33DAB5213EE6B800732F60 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33DAB4213EE6B800732F60 /* EpisodeCell.swift */; };
+		DD844348213E3A1F0005816E /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD844347213E3A1F0005816E /* Episode.swift */; };
+		DD86136E213DB093007A01D8 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD86136C213DB093007A01D8 /* SWXMLHash.swift */; };
+		DD86136F213DB093007A01D8 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD86136D213DB093007A01D8 /* SWXMLHash+TypeConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD142082213DCF3E008D8387 /* EpisodesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesVC.swift; sourceTree = "<group>"; };
+		DD142084213DD11D008D8387 /* MainSplitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitVC.swift; sourceTree = "<group>"; };
 		DD2C7559213D9FFF00AD44A7 /* Pod Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2C755C213D9FFF00AD44A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD2C755E213D9FFF00AD44A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD2C7561213D9FFF00AD44A7 /* Pod_Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pod_Player.xcdatamodel; sourceTree = "<group>"; };
 		DD2C7563213DA00000AD44A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2C7566213DA00000AD44A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD2C7568213DA00000AD44A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2C7569213DA00000AD44A7 /* Pod_Player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pod_Player.entitlements; sourceTree = "<group>"; };
+		DD2C756F213DA3BB00AD44A7 /* PodcastsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsVC.swift; sourceTree = "<group>"; };
+		DD2C7571213DA9E000AD44A7 /* PodcastParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastParser.swift; sourceTree = "<group>"; };
+		DD33DAB4213EE6B800732F60 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		DD844347213E3A1F0005816E /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		DD86136B213DAFB6007A01D8 /* Pod Player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pod Player.entitlements"; sourceTree = "<group>"; };
+		DD86136C213DB093007A01D8 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		DD86136D213DB093007A01D8 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,15 +70,31 @@
 		DD2C755B213D9FFF00AD44A7 /* Pod Player */ = {
 			isa = PBXGroup;
 			children = (
+				DD861370213DB09C007A01D8 /* SWXML Hash */,
+				DD86136B213DAFB6007A01D8 /* Pod Player.entitlements */,
 				DD2C755C213D9FFF00AD44A7 /* AppDelegate.swift */,
-				DD2C755E213D9FFF00AD44A7 /* ViewController.swift */,
 				DD2C7563213DA00000AD44A7 /* Assets.xcassets */,
 				DD2C7565213DA00000AD44A7 /* Main.storyboard */,
 				DD2C7568213DA00000AD44A7 /* Info.plist */,
 				DD2C7569213DA00000AD44A7 /* Pod_Player.entitlements */,
 				DD2C7560213D9FFF00AD44A7 /* Pod_Player.xcdatamodeld */,
+				DD2C756F213DA3BB00AD44A7 /* PodcastsVC.swift */,
+				DD2C7571213DA9E000AD44A7 /* PodcastParser.swift */,
+				DD142082213DCF3E008D8387 /* EpisodesVC.swift */,
+				DD142084213DD11D008D8387 /* MainSplitVC.swift */,
+				DD844347213E3A1F0005816E /* Episode.swift */,
+				DD33DAB4213EE6B800732F60 /* EpisodeCell.swift */,
 			);
 			path = "Pod Player";
+			sourceTree = "<group>";
+		};
+		DD861370213DB09C007A01D8 /* SWXML Hash */ = {
+			isa = PBXGroup;
+			children = (
+				DD86136C213DB093007A01D8 /* SWXMLHash.swift */,
+				DD86136D213DB093007A01D8 /* SWXMLHash+TypeConversion.swift */,
+			);
+			path = "SWXML Hash";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +129,11 @@
 				TargetAttributes = {
 					DD2C7558213D9FFF00AD44A7 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2C755F213D9FFF00AD44A7 /* ViewController.swift in Sources */,
+				DD2C7570213DA3BB00AD44A7 /* PodcastsVC.swift in Sources */,
+				DD86136F213DB093007A01D8 /* SWXMLHash+TypeConversion.swift in Sources */,
+				DD2C7572213DA9E000AD44A7 /* PodcastParser.swift in Sources */,
+				DD142083213DCF3E008D8387 /* EpisodesVC.swift in Sources */,
 				DD2C7562213D9FFF00AD44A7 /* Pod_Player.xcdatamodeld in Sources */,
+				DD33DAB5213EE6B800732F60 /* EpisodeCell.swift in Sources */,
+				DD86136E213DB093007A01D8 /* SWXMLHash.swift in Sources */,
+				DD142085213DD11D008D8387 /* MainSplitVC.swift in Sources */,
+				DD844348213E3A1F0005816E /* Episode.swift in Sources */,
 				DD2C755D213D9FFF00AD44A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Pod Player/Pod_Player.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Pod Player/Pod Player.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Pod Player/Info.plist";
@@ -291,7 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Pod Player/Pod_Player.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Pod Player/Pod Player.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Pod Player/Info.plist";
